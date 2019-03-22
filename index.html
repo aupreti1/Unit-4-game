@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Anastasia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine|Yellowtail" rel="stylesheet">
+</head>
+
+<body background="./assets/images/background.jpg">
+    <div id="container">
+        <h1>Anastasia Game!</h1>
+        <div id="instruction-box">
+            <h3>Instructions:</h3>
+
+            <p>
+                You will be given a random target number at the start of the game. 
+            <p>
+                There are 4 crystals below. By clicking on each you will add a specific amount of points
+                to your total score.
+            <p>
+                You can win the game by matching your number with the target number.
+            <p>
+                Value of each crystal is hidden until you click on it.
+            <p>
+                The game restarts if you win or lose the round, and restarts with a new random target number.
+            </p>
+        </div>
+
+
+        <div class="box">
+
+            <h3>
+                <div class="scores">
+                    Target Number:
+                    <span id="targetnum"></span>
+                </div>
+                <div class="scores">
+                    Your Number:
+                    <span id="yournum"></span>
+                </div>
+            </h3>
+
+        
+        </div>
+
+    
+        <div class="imagebox">
+
+            <img id="Anastasia" src="assets/images/Anastasia.jpg">
+            <img id="Dametrie" src="assets/images/Dametrie.jpg">
+            <img id="Bartok" src="assets/images/Bartok.jpg">
+            <img id="Rasputan" src="assets/images/Rasputan.jpg">
+        </div>
+
+        
+        <div class="box1">
+            <h3>Wins:
+                <span id="wins"></span>
+            </h3>
+        </div>
+        <div class="box1">
+            <h3>Losses:
+                <span id="loss"></span>
+            </h3>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline #57e0ff;
+    font-family: 'Tangerine', cursive;;
+}
+
+#container {
+border: solid 10px #57e0ff;
+margin-left: 10%;
+margin-right: 10%;
+background: #ffe6b2;
+}
+
+#instruction-box {
+    border-bottom: solid #57e0ff 3px;;
+    margin-left:5%;
+    margin-right:5%;
+
+}
+
+.box {
+    border-bottom: solid #57e0ff 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 5%;
+    text-align: center;
+}
+.scores {
+    padding: 20px;
+    margin:10px;
+    font-family: 'Tangerine', cursive;
+    font-family: 'Yellowtail', cursive;
+    background-color: #ffe1e6;
+    border: solid 5px #57e0ff;
+}
+
+span{
+    border: solid 4px black;
+    background-color:lightgoldenrodyellow;
+    padding: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.box1 {
+    border-top: solid #57e0ff 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-family: 'Yellowtail', cursive;
+}
+
+.imagebox {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+#Anastasia {
+    width: 100px;
+    height: 100px;
+    padding-left: 2%;
+    padding-right:2%;
+}
+
+#Dametrie {
+    width: 100px;
+    height: 100px;
+    padding-left: 2%;
+    padding-right:2%;
+}
+
+#Bartok{
+    width: 100px;
+    height: 100px;
+    padding-left: 2%;
+    padding-right:2%;
+}
+
+#Rasputan {
+    width: 100px;
+    height: 100px;
+    padding-left: 2%;
+    padding-right:2%;
+    float: right;
+}
